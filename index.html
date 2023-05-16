@@ -33,7 +33,7 @@
                 <ul class="flex flex-column xl:flex-row list-none">
                     <li onclick="scrollToSection('about')">Sobre mí</li>
                     <li onclick="scrollToSection('services')">Servicios</li>
-                  
+                    <li onclick="scrollToSection('portfolio')">Portafolio</li>
                     <li onclick="scrollToSection('contact')">Contacto</li>
                 </ul>
                 <div class="hireMe__button ">
@@ -231,91 +231,53 @@
             </div>
         </section>
 
-        <!--PORTFOLIO -->
-<!--        <section id="portfolio" class="portfolio min-h-full w-full pb-8 pt-8">-->
-<!--            <div class="portfolio__title flex flex-column gap-3 text-center">-->
-<!--                <h1 class="text-3xl md:text-5xl">Mi trabajo</h1>-->
-<!--            </div>-->
-<!--            <div class="portfolio__gallery">-->
-<!--&lt;!&ndash;                <div class="gallery__categories mb-5 mt-5">&ndash;&gt;-->
-<!--&lt;!&ndash;                    <ul class="flex list-none flex-wrap justify-content-center gap-3">&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li class="filter-item active" data-filter="all">Todos</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li class="filter-item " data-filter="gym">Gimnasio</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li class="filter-item " data-filter="tours__Web">Tours web</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li class="filter-item " data-filter="world__Tours">Inmobiliaria web</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li class="filter-item " data-filter="e__commerce">E-commerce</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                    </ul>&ndash;&gt;-->
-<!--&lt;!&ndash;                </div>&ndash;&gt;-->
-<!--                <div class="proyect__gallery flex justify-content-center align-items-center flex-wrap gap-3">-->
-<!--                    <div class="project__card tours__Web">-->
-<!--                        <img src="./assets/proyecto-1.png" alt="">-->
-<!--                        <div class="overlay"></div>-->
-<!--                        <div-->
-<!--                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">-->
-<!--                            <h2>Tik-Tak-Toe</h2>-->
-<!--                            <p>Juego de Tik-Tak-Toe creado a partir de Js,HTML y CSS</p>-->
-<!--                            <span><i class="fa-solid fa-arrow-right-long"></i></span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="project__card e__commerce">-->
-<!--                        <img src="./assets/proyecto-2.png" alt="">-->
-<!--                        <div class="overlay"></div>-->
-<!--                        <div-->
-<!--                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">-->
-<!--                            <h2>Travel Tours</h2>-->
-<!--                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae obcaecati amet-->
-<!--                            </p>-->
-<!--                            <span><i class="fa-solid fa-arrow-right-long"></i></span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="project__card tours__Web">-->
-<!--                        <img src="./assets/proyecto-3.png" alt="">-->
-<!--                        <div class="overlay"></div>-->
-<!--                        <div-->
-<!--                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">-->
-<!--                            <h2>Travel Tours</h2>-->
-<!--                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae obcaecati amet-->
-<!--                            </p>-->
-<!--                            <span><i class="fa-solid fa-arrow-right-long"></i></span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="project__card gym">-->
-<!--                        <img src="./assets/proyecto-4.jpeg" alt="">-->
-<!--                        <div class="overlay"></div>-->
-<!--                        <div-->
-<!--                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">-->
-<!--                            <h2>Travel Tours</h2>-->
-<!--                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae obcaecati amet-->
-<!--                            </p>-->
-<!--                            <span><i class="fa-solid fa-arrow-right-long"></i></span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="project__card world__Tours">-->
-<!--                        <img src="./assets/proyecto-5.jpg" alt="">-->
-<!--                        <div class="overlay"></div>-->
-<!--                        <div-->
-<!--                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">-->
-<!--                            <h2>Travel Tours</h2>-->
-<!--                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae obcaecati amet-->
-<!--                            </p>-->
-<!--                            <span><i class="fa-solid fa-arrow-right-long"></i></span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="project__card tours__Web">-->
-<!--                        <img src="./assets/proyecto-6.webp" alt="">-->
-<!--                        <div class="overlay"></div>-->
-<!--                        <div-->
-<!--                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">-->
-<!--                            <h2>Travel Tours</h2>-->
-<!--                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae obcaecati amet-->
-<!--                            </p>-->
-<!--                            <span><i class="fa-solid fa-arrow-right-long"></i></span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
-        <!--FOOTER -->
+       <!--PORTFOLIO -->
+       <section id="portfolio" class="portfolio min-h-full w-full pb-8 pt-8">
+        <div class="portfolio__title flex flex-column gap-3 text-center">
+            <h1 class="text-3xl md:text-5xl">Mi trabajo</h1>
+            <p class="text-gray-400 text-sm md:text-base">
+                Descubre la excelencia en desarrollo web con mis proyectos publicos de vanguardia.
+                Experiencia visual cautivadora y funcionalidad sin igual en cada clic.
+            </p>
+        </div>
+        <div class="portfolio__gallery">
+                            
+            <div class="proyect__gallery flex justify-content-center align-items-center flex-wrap gap-3  mt-5">
+                
+                <div class="project__card teos">
+                    <img src="./assets/proyecto-1.png" alt="">
+                    <div class="overlay"></div>
+                    <div
+                    class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                    <h2>Tribunal de Ética Odontológica de de Santander</h2>
+                       
+                        <a href="https://teosantander.com/" target="_blank">
+                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+
+                       </a>
+
+                    </div>
+                </div>
+                <div class="project__card golden bg-cover">
+                    <img src="./assets/proyecto-2.png" alt="">
+                    <div class="overlay"></div>
+                    <div
+                        class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                        <h2>Gold Escorts España</h2>
+                        
+                      
+ 
+                        <a href=" https://www.goldescortsesp.com/" target="_blank" rel="noopener noreferrer">
+                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </a>
+
+                       
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
         <footer id="contact" class="min-h-full w-full flex grid col-12 justify-content-center pb-8 pt-8 lg:text-center">
             <div class="social__media col-12 md:col-4 flex flex-column justify-content-between">
                 <h3>Redes sociales</h3>
